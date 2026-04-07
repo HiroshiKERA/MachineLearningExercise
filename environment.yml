@@ -1,7 +1,9 @@
+#   conda env create -f environment.yml
+#   conda activate ml-exercise
 name: ml-exercise
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.11
   - numpy
