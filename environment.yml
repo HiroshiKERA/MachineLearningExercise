@@ -1,0 +1,15 @@
+name: ml-exercise
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - tqdm
